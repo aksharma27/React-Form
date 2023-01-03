@@ -1,11 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg';
+import { useState } from 'react';
+import Form from './components/form'; './components/Form';
 
 function App() {
   return (
     <div className="App">
       App
+      <Form />
     </div>
+
   )
 }
 
